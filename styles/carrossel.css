@@ -76,6 +76,10 @@
     text-decoration: none;
 }
 
+.botoes__ancora:hover {
+    background-color: #eab148;
+}
+
 .botoes {
     display: flex;
     align-items: center;
@@ -147,6 +151,10 @@
     text-decoration: none;
 }
 
+.botoes__ancora2:hover {
+    background-color: #eab148;
+}
+
 @media screen and (min-width:1024px) {
     .carrossel__titulo{
         font-size: 26px;
@@ -176,13 +184,22 @@
     }
 
     .swiper-button-next, .swiper-button-prev{
-        display: block;
+        display: flex;
         top: 63%;
     }
 
     .card {
         width: 40%;
         margin: 3em auto;
+    }
+
+    .card2 {
+        width: 40%;
+        margin: 3em auto;
+    }
+
+    .card2__titulo {
+        font-size: 1.5rem;
     }
 
     .carrossel2__titulo{
